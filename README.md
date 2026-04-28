@@ -1,14 +1,25 @@
-# Análisis de Compras por Grupo Etario
-## Descripción
-Este proyecto busca analizar el comportamiento de compra de productos según diferentes grupos de edad, con el objetivo de identificar patrones y tendencias. 
-La fase actual corresponde al análisis exploratorio de datos para entender qué productos son más comprados por cada subgrupo etario.
+# 🛒 Análisis de Tendencias de Compra por Grupo Etario
 
-# Fase 1: Análisis Exploratorio de Datos (EDA)
-Identificación de productos más comprados según grupos etarios discretizados.
+## 📋 Descripción
+Análisis exploratorio de un dataset de 100.000 registros de comportamiento 
+de compra, con el objetivo de identificar patrones según grupo etario.
 
-Generación de rankings y visualizaciones (gráficos de barras, mapas de calor, tablas) que reflejen patrones de compra por subgrupo.
+Se trabajó con variables como categoría de producto, frecuencia de compra, 
+ingreso y satisfacción del cliente.
 
-### Objetivo: Detectar qué productos predominan en cada grupo para entender mejor el comportamiento de los consumidores.
+## 📌 Hallazgos principales
+- El grupo de 18-29 años concentra el 45% de los registros
+- Electrónica es la categoría dominante en todos los grupos etarios
+- Se generaron visualizaciones con Seaborn y Matplotlib para detectar 
+  tendencias entre grupos de 18 a 50 años
 
+## 🛠️ Tecnologías
+Python · Pandas · Seaborn · Matplotlib · Jupyter
 
-Fuente del Dataset: https://www.kaggle.com/datasets/sanyamgoyal401/customer-purchases-behaviour-dataset
+## 📂 Dataset
+Fuente: [Customer Purchases Behaviour Dataset - Kaggle](https://www.kaggle.com/datasets/sanyamgoyal401/customer-purchases-behaviour-dataset)
+
+## ▶️ Cómo ejecutar
+1. Clonar el repositorio
+2. Instalar dependencias: `pip install -r requirements.txt`
+3. Abrir `data_customer.ipynb` en Jupyter
